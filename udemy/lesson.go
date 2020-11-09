@@ -11,10 +11,13 @@ var (
 
 func foo() {
   xi := 1
-  xf64 := "test"
+  xi = 2
+  var xf32 float32 = 1.2
+  xs := "test"
   xt, xf := true, false
-  fmt.Println(xi, xf64, xt, xf)
-  fmt.Printf("%T", xf64)
+  fmt.Println(xi, xf32, xs, xt, xf)
+  fmt.Printf("%T\n", xf32)
+  fmt.Printf("%T\n", xi)
  }
 
 func main() {
