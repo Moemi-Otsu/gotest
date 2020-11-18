@@ -1,10 +1,11 @@
 // スライスのmakeとcap
+// キャパシティは、あらかじめメモリを決めておく必要があるような開発に有効
 package main
 
 import "fmt"
 
 func main() {
-  // 3 = レングス, 5 = キャパシティ
+  // 3 = レングス, 5 = キャパシティ（メモリに確保しておくキャパシティ）
   n := make([]int, 3, 5)
   fmt.Printf("len=%d cap=%d value=%v\n", len(n), cap(n), n)
   n = append(n, 0, 0)
