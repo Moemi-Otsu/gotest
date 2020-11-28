@@ -19,9 +19,11 @@ func main(){
     fmt.Println(i)
   }
 
+  // for文は下記の書き方もできる
   sum := 1
-  fot ; sum < 10; {
+  for sum < 10 {
     sum += sum
+    fmt.Println(sum)
   }
   fmt.Println(sum)
 }
