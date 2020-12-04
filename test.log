@@ -1,0 +1,7 @@
+2020/12/05 00:30:55 29_log.go:33: logging!
+2020/12/05 00:30:55 29_log.go:34: string test
+2020/12/05 00:30:55 29_log.go:37: string test
+2020/12/05 00:33:15 29_log.go:33: logging!
+2020/12/05 00:33:15 29_log.go:34: string test
+2020/12/05 00:33:15 29_log.go:37: string test
+2020/12/05 00:35:19 29_log.go:23: Exit open fdsfdfds: no such file or directory
